@@ -6,7 +6,7 @@ import time
 # crear escenario
 screen = Screen()  # instanciar el objeto
 screen.setup(width=600, height=600)
-screen.bgcolor("black")
+screen.bgcolor("purple")
 screen.title("Programate snake")
 
 screen.tracer(0)
@@ -32,5 +32,9 @@ while game_is_on:
     time.sleep(0.2)
 
     snake.move()
+
+    #detectar la colisión con la comida
+    if snake.head.distance(food) < 15:
+        food.refresh()
 
 screen.exitonclick()
