@@ -14,7 +14,7 @@ Creamos el juego del gusanito con python
 ☕️  python
 <br>
 
-<h3>Librerias</h3></br>
+<h3>Librerias</h3>
 Importamos turtle, time
 </br>
 <p>Para crear el juego trabajamos con POO creando las diferentes clases a usar con sus metodos y atributos.</p>
